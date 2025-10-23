@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="fastfood.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Merienda:wght@800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="header"> 
+
+    <div class="head logo">
+      <img src="./images/HAJEMlogo.png" alt="logo" id="logoimg">
+
+    </div>
+  
+
+    <div class="navbar">
+      <div class="burger" id="burger"> ☰
+      </div>
+      <div class="info" id="navLinks">
+        <a href="#Home">Home</a>
+        <a href="#ofers">Ofers</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="insidepage" id="Home">
+
+      <div class="nameoffastfood">
+        
+        <img src="./images/hajemsecondlogo.png" alt="logo" id="logoimg2">
+        
+        <p>We have the joy to make the best and most </br>delicous  type of fast food you can ever try.</br> So get ready to impres your taste bud...</p> 
+    
+      </div>
+
+  
+      <div class="burgerphotoandtime">
+        
+        <img src="./images/burgerfloating.png" alt="burger" id="burgerphoto">
+        
+        <h3>Free Delivery  <span> 10:30 ~ 23:00</span></h3>
+      
+      </div>
+
+  </div>
+
+  <div class="secondpage" id="ofers">
+  
+  <div class="firstdiv">
+    
+    <div class="firstdivinsidepage">
+      
+      <div class="menu-card" data-name="Double Cheese Burger Offer" data-price="9.99">
+        <img class="menu-image" src="./images/doublecheeseburgeroofer.jpg" alt="Double Cheese Burger Offer">
+        
+        <div class="menu-content">
+          
+          <div class="menu-title">Double Cheeseburger with Dip and Drink Combo</div>
+          
+          <div class="menu-description">Juicy grilled double 300gr beef patties with melted cheddar cheese, egg, onion rings, bacon, and our signature sauce - all in a toasted crispy bun.</div>
+          
+          <div class="menu-items">
+          
+            <strong>Includes:</strong> Small fries, soft drink, dip sauce 
+          
+          </div>
+          
+          <button class="order-button">Order Now - 9.99€</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="firstdivinsidepage2">
+
+    </div>
+
+  </div> 
+
+  <div class="seconddiv" >
+
+    <div class="seconddivinsidepage">
+      <div class="menu-card" data-name="Margherita Pizza offer" data-price="6.49">
+        <img class="menu-image" src="./images/margheritaoffer.jpg" alt="Margherita Pizza offer">
+        
+        <div class="menu-content">
+          
+          <div class="menu-title">Napoletan Margherita with a glass of Stella Rosa wine</div>
+          <div class="menu-description">
+            Classic Italian pizza topped with fresh mozzarella, vine-ripened tomatoes, basil leaves, and a drizzle of extra virgin olive oil on a crispy hand-tossed crust.
+          </div>
+          
+          <div class="menu-items">
+          <strong>Includes:</strong> Margherita pizza, Stella Rosa wine
+          </div>
+        <button class="order-button">Add Order  - 6.49€</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="thirdpage" id="menu">
+  <div id="fastfood-menu">
+
+  <div id="cart-icon">🛒 <span id="cart-count">0</span>
+  </div>
+  
+  <div id="cart">
+    <h2>Your Cart</h2>
+  <ul id="cart-items"></ul>
+    <p id="cart-empty">Your cart is empty</p>
+    <div id="cart-total">Total: 0.00€</div>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+
+  <div class="menu-section">
+    <h2>Burgers</h2>
+
+    <div class="menu-grid">
+
+      <div class="menu-item" data-name="Classic Burger" data-price="3.80">
+      <img src="./images/classicburger.jpg" alt="Classic Burger">
+      <h3>Classic Burger</h3>
+      <p>Beef patty, lettuce, tomato, sauce</p>
+      <button class="order-btn">Add Order - 3.80€</button>
+     </div>
+
+    <div class="menu-item" data-name="Chicken Burger" data-price="4.50">
+      <img src="./images/chickenburger.jpg" alt="Chicken Burger">
+      <h3>Chicken Burger</h3>
+      <p>Chicken patty, cheddar, pickles, sauce</p>
+      <button class="order-btn">Add Order - 4.50€</button>
+    </div>
+
+    <div class="menu-item" data-name="Double Cheese Burger" data-price="7.30">
+      <img src="./images/doublecheeseburger.jpg" alt="Double Cheese Burger">
+       <h3>Double Cheese Burger</h3>
+      <p>Double beef patties, cheddar, salad</p>
+      <button class="order-btn">Add Order - 7.30€</button>
+    </div>
+
+      <div class="menu-item" data-name="Bacon Burger" data-price="5.30">
+      <img src="./images/baconburger.jpg" alt="Bacon Burger">
+      <h3>Bacon Burger</h3>
+      <p>Beef patty, bacon, cheddar</p>
+      <button class="order-btn">Add Order - 5.30€</button>
+      </div>
+
+      <div class="menu-item" data-name="Special Burger" data-price="8.00">
+      <img src="./images/specialburger.jpg" alt="Special Burger">
+      <h3>Special Burger</h3>
+       <p>300gr beef patty, cheese, bacon, egg, black bun</p>
+       <button class="order-btn">Add Order - 8.00€</button>
+      </div>
+    </div>
+  </div>
+
+<div class="menu-section">
+
+   <h2>Pizzas</h2>
+
+   <div class="menu-grid">
+
+     <div class="menu-item" data-name="Margherita Pizza" data-price="4.50">
+      
+      <img src="./images/pizzamargherita.jpg" alt="Margherita Pizza">
+      <h3>Margherita</h3>
+      <p>Mozzarella cheese, basil, cheese</p>
+      <button class="order-btn">Add Order - 4.50€</button>
+     
+    </div>
+      
+    <div class="menu-item" data-name="Rukola Pizza" data-price="7.00">
+      <img src="./images/pizzarukola.jpg" alt="Rukola Pizza">
+      <h3>Rukola Pizza</h3>
+      <p>Prosciutto, parmesan cheese, pomodorini</p>
+      <button class="order-btn">Add Order - 7.00€</button>
+     
+    </div>
+    
+    <div class="menu-item" data-name="Vegetarian Pizza" data-price="5.00">
+        <img src="./images/pizzavegetarian.jpg" alt="Vegetarian Pizza">
+        <h3>Vegetarian Pizza</h3>
+        <p>Pomodorini, peppers, basilik, cheese</p>
+        <button class="order-btn">Add Order - 5.00€</button>
+    </div>
+    <div class="menu-item" data-name="Diavola Pizza" data-price="6.30">
+        
+      <img src="./images/pizzadiavola.jpg" alt="Diavola Pizza">
+      <h3>Diavola Pizza</h3>
+      <p>Cheese, pepperoni </p>
+      <button class="order-btn">Add Order - 6.30€</button>
+    </div>
+
+    <div class="menu-item" data-name="Primavera Pizza" data-price="8.00">
+      <img src="./images/pizzaprimavera.jpg" alt="Primavera Pizza">
+      <h3>Primavera Pizza</h3>
+      <p>Bacon, rucola, cheese, olives</p>
+      <button class="order-btn">Add Order - 8.00€</button>
+      
+    </div>
+  
+  </div>
+
+</div>
+
+<div class="menu-section">
+   
+  <h2>Sandwiches</h2>
+   <div class="menu-grid">
+     
+    <div class="menu-item" data-name="Chicken Sandwich" data-price="5.49">
+       <img src="./images/chickensandwich.jpg" alt="Chicken Sandwich">
+       <h3>Chicken Sandwich</h3>
+       <p>Chicken, chedarcheese, sauce, salad</p>
+       <button class="order-btn">Add Order - 5.49€</button>
+     </div>
+     
+     <div class="menu-item" data-name="Club Sandwich" data-price="3.00">
+        <img src="./images/clubsandwich.jpg" alt="Club Sandwichh">
+        <h3>Club Sandwich</h3>
+        <p>Chicken, salads, egg, ham</p>
+        <button class="order-btn">Add Order - 3.00€</button>
+   </div>
+   
+   <div class="menu-item" data-name="Crunch Sandwich" data-price="4.00">
+       <img src="./images/crunchsandwich.jpg" alt="Crunch Sandwich">
+       <h3>Crunch Sandwich</h3>
+       <p>Crunch chicken, sallad, sauce</p>
+       <button class="order-btn">Add Order - 4.00€</button>
+     
+      </div>
+    
+     <div class="menu-item" data-name="Steak Sandwich" data-price="4.50">
+       <img src="./images/steaksandwich.jpg" alt="Steak Sandwich">
+       <h3>Steak Sandwich</h3>
+       <p>Steak, salad, sauce</p>
+       <button class="order-btn">Add Order - 4.80€</button>
+   </div>
+  
+   <div class="menu-item" data-name="Egg Sandwich" data-price="3.50">
+      <img src="./images/eggsandwich.jpg" alt="Egg Sandwich">
+      <h3>Egg Sandwich</h3>
+      <p>Scrambled egg, mayo, cheese</p>
+      <button class="order-btn">Add Order - 3.30€</button>
+     </div>
+  </div>
+</div>
+
+<div class="menu-section">
+  <h2>Fries</h2>
+    
+  <div class="menu-grid">
+    
+    <div class="menu-item" data-name="Small Fries" data-price="2.00">
+        
+      <img src="./images/smallfries.jpg" alt="Small Fries">
+        <h3>Small Fries</h3>
+        <p>Golden crispy fries</p>
+        <button class="order-btn">Add Order - 2.00€</button>
+      
+      </div>
+     
+      <div class="menu-item" data-name="Extra Fries" data-price="2.50">
+       
+        <img src="./images/Extrafires.jpg" alt="Extra Fries">
+        <h3>Extra Fries</h3>
+        <p>Medium fries with cheese</p>
+        <button class="order-btn">Add Order - 2.50€</button>
+      
+      </div>
+      <div class="menu-item" data-name="Patato Wedges" data-price="3.00">
+        
+        <img src="./images/wedge.jpg" alt="Patato Wedges">
+        <h3>Patato Wedges</h3>
+        <p>Patato wedges with spices</p>
+        <button class="order-btn">Add Order - 3.00€</button>
+      
+      </div>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+<footer class="footer" id="about">
+    
+  <div class="footer-content">
+      <p class="footer-text">© <span id="year"></span> Fast Food - Since 2019 - Best Of The Best</p>
+      
+      <div class="socials">
+        <a href="https://www.instagram.com/hajem__ks/" target="_blank" class="social-link">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        </a>
+        <a href="https://tiktok.com" target="_blank" class="social-link">
+          <img src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png" alt="TikTok">
+        </a>
+        <a href="https://facebook.com" target="_blank" class="social-link">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="fastfood.js" charset="UTF-8"></script>
+</body>
+</html>
